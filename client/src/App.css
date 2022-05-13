@@ -1,0 +1,20 @@
+div.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100vh;
+}
+
+div.noti-modal {
+  width: 500px;
+  height: 100%;
+  position: fixed;
+  top: -1px;
+  z-index: 999;
+  left: 80px;
+  background-color: #1f1f1f;
+  overflow-x: scroll;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}

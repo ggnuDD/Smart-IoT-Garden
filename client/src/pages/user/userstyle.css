@@ -1,0 +1,168 @@
+div.user-container {
+  padding-top: 30px;
+  height: 100vh;
+}
+
+div.device-box {
+  width: 600px;
+  height: 300px;
+  border-radius: 52px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+div.device-title {
+  width: 600px;
+  height: 80px;
+  border-radius: 52px;
+  position: relative;
+  left: -10px;
+  text-align: center;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+div.device-title h1 {
+  padding-top: 20px;
+  font-weight: 200;
+}
+
+div.device-description {
+  color: white;
+  font-size: 36px;
+  padding: 10px 120px 0px 120px;
+  text-align: center;
+}
+
+div.device-description h2 {
+  font-weight: 200;
+}
+
+button.view-log-btn {
+  width: 500px;
+  font-size: 30px;
+  position: relative;
+  left: 35px;
+  top: 30px;
+  background: transparent;
+  border-radius: 52px;
+  border: 2px solid white;
+}
+button.view-log-btn:hover {
+  background: transparent;
+  border: 2px solid black;
+}
+div.sensor-container1 {
+  width: 1250px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.sensor-box {
+  width: 260px;
+  height: 350px;
+  border-radius: 40px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  text-align: center;
+}
+
+div.sensor-title {
+  width: 260px;
+  height: 100px;
+  position: relative;
+  left: -12px;
+  text-align: center;
+  border-radius: 40px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+div.sensor-title h1 {
+  padding-top: 5px;
+  font-size: 36px;
+  font-weight: 200;
+}
+
+div.sensor-status {
+  padding-top: 20px;
+}
+
+div.sensor-status h3 {
+  font-size: 36px;
+  font-weight: 200;
+}
+
+button.edit-value-btn {
+  font-size: 30px;
+  width: 160px;
+  position: relative;
+  top: 50px;
+  background: transparent;
+  border-radius: 40px;
+  border: 2px solid white;
+}
+
+button.edit-value-btn:hover {
+  background: transparent;
+  border: 2px solid black;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+.modal {
+  z-index: 100;
+  background: white;
+  position: relative;
+  margin: 1.75rem auto;
+  border-radius: 3px;
+  max-width: 500px;
+  padding: 2rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-close-button {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  opacity: 0.3;
+  cursor: pointer;
+  border: none;
+}
+
+div.switch-control {
+  position: relative;
+  left: 205px;
+  color: white;
+}

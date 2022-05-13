@@ -1,0 +1,44 @@
+div.message-container {
+  height: 70px;
+  width: 100%;
+  background-color: transparent;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+}
+
+div.message-container:hover {
+  background-color: #33363d;
+}
+div.message-icon {
+  font-size: 50px;
+}
+
+button.message-dismiss {
+  background: transparent;
+  color: white;
+  font-size: 28px;
+  border-radius: 50px;
+  border: none;
+}
+
+button.message-dismiss:hover {
+  background: transparent;
+  color: red;
+}
+
+i.message-unread {
+  color: green;
+  font-size: 28px;
+}
+
+div.close-message {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  right: 10px;
+}
